@@ -1,6 +1,6 @@
 const btnSelectBread = document.querySelector('.breed-select');
 const articleCat = document.querySelector('.cat-info');
-const loader = document.querySelector('.loader');
+const loader = document.querySelector('.backdrop');
 
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
